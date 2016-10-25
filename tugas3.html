@@ -3,8 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Aziz Sudrajat Github IO</title>
+    <style media="screen">
+    .container{
+      width: 500px;
+      margin: auto;
+    }
+    p{
+      margin: 10px 0;
+      /*padding: 20px 10px;*/
+    }
+
+    a{
+      text-align: center;
+      text-decoration: none;
+      padding: 10px;
+      color: white;
+      background-color: red;
+      border-radius: 50px;
+      display: block;
+    }
+    </style>
   </head>
   <body>
-
+    <div class="container">
+      <p onclick="pesan()"><a>Alert Function</a></p><br>
+      <p onclick="alert('Jangan Klik OKE')"><a>Alert Function</a></p><br>
+    </div>
+    <script>
+    function pesan(){
+      alert("Jangan Klik OKE");
+    }
+    </script>
   </body>
 </html>
