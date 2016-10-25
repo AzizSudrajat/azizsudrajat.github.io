@@ -7,10 +7,31 @@ body{
 
 }
 
+h1{
+  margin: 20px 0 40px 0 ;
+  text-align: center;
+}
+
+.container{
+  width: 600px;
+  margin: auto;
+}
+
+p{
+  margin: 10px 0;
+  /*padding: 20px 10px;*/
+}
+
 a{
+  text-align: center;
   text-decoration: none;
-  padding: 20px;
+  padding: 50px;
   color: white;
   background-color: red;
   border-radius: 10px;
+  display: block;
+}
+
+a:hover{
+  background-color: #d53d3d;
 }
