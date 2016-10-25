@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+}
+
+.container{
+  width: 600px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0 40px 0 ;
+}
+
+table {
+
+}
+
+tr{
+
+}
+
+th {
+  width: 150px;
+  height: 30px;
+}
+
+td {
+  text-align: center;
+}
+
+img{
+  width:150px;
+  height: 150px;
+}
+
+a{
+
+}
