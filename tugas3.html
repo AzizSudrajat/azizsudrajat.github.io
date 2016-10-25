@@ -32,11 +32,38 @@
     <div class="container">
       <p onclick="pesan()"><a>Alert Function</a></p><br>
       <p onclick="alert('Jangan Klik OKE')"><a>Alert Function</a></p><br>
+
+      <form id="frm1">
+        <pre>
+          Nama Depan    : <input type="text" name="fname" value="">
+        </pre>
+        <pre>
+          Nama Belakang : <input type="text" name="lname" value="">
+        </pre>
+      </form>
+
+      <p onclick="tambah()"><a>Input</a></p>
+      <p id="a"></p>
+      <p>
+        Belajar JavaScript
+      </p>
     </div>
+
+
     <a href="index.html">Kembali</a>
     <script>
     function pesan(){
       alert("Jangan Klik OKE");
+    }
+
+    function tambah() {
+        var x = document.getElementById("frm1");
+        var text = "";
+        var i;
+        for (i = 0; i < x.length ;i++) {
+            text += x.elements[i].value + " ";
+        }
+        document.getElementById("a").innerHTML = text;
     }
     </script>
   </body>
